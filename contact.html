@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact EduInstitution - We're here to help">
+    <title>Contact Us - EduInstitution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>EduInstitution</h2>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="programs.html" class="nav-link">Programs</a></li>
+                    <li><a href="faculty.html" class="nav-link">Faculty</a></li>
+                    <li><a href="admissions.html" class="nav-link">Admissions</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 120px 0 80px; color: white; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Contact Us</h1>
+            <p style="font-size: 1.25rem; opacity: 0.9;">We're here to help - Get in touch</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section style="padding: 5rem 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                <!-- Contact Form -->
+                <div>
+                    <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--text-dark);">Send us a Message</h2>
+                    <form id="contactForm" style="background: var(--bg-light); padding: 2.5rem; border-radius: 12px; box-shadow: var(--shadow-md);">
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="contactName" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Name *</label>
+                            <input type="text" id="contactName" name="name" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; transition: var(--transition);">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="contactEmail" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Email *</label>
+                            <input type="email" id="contactEmail" name="email" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; transition: var(--transition);">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="contactSubject" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Subject *</label>
+                            <input type="text" id="contactSubject" name="subject" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; transition: var(--transition);">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="contactMessage" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Message *</label>
+                            <textarea id="contactMessage" name="message" rows="6" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit; resize: vertical; transition: var(--transition);"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--text-dark);">Get in Touch</h2>
+                    <div style="background: var(--bg-light); padding: 2.5rem; border-radius: 12px; box-shadow: var(--shadow-md);">
+                        <div style="margin-bottom: 2rem;">
+                            <h3 style="color: var(--primary-color); margin-bottom: 0.75rem; font-size: 1.25rem;">📍 Address</h3>
+                            <p style="color: var(--text-light); line-height: 1.8;">
+                                123 Education Street<br>
+                                City, State 12345<br>
+                                United States
+                            </p>
+                        </div>
+                        <div style="margin-bottom: 2rem;">
+                            <h3 style="color: var(--primary-color); margin-bottom: 0.75rem; font-size: 1.25rem;">📞 Phone</h3>
+                            <p style="color: var(--text-light); line-height: 1.8;">
+                                Main: (555) 123-4567<br>
+                                Admissions: (555) 123-4568<br>
+                                Fax: (555) 123-4569
+                            </p>
+                        </div>
+                        <div style="margin-bottom: 2rem;">
+                            <h3 style="color: var(--primary-color); margin-bottom: 0.75rem; font-size: 1.25rem;">📧 Email</h3>
+                            <p style="color: var(--text-light); line-height: 1.8;">
+                                General: info@eduinstitution.edu<br>
+                                Admissions: admissions@eduinstitution.edu<br>
+                                Support: support@eduinstitution.edu
+                            </p>
+                        </div>
+                        <div>
+                            <h3 style="color: var(--primary-color); margin-bottom: 0.75rem; font-size: 1.25rem;">🕐 Office Hours</h3>
+                            <p style="color: var(--text-light); line-height: 1.8;">
+                                Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                Saturday: 9:00 AM - 1:00 PM<br>
+                                Sunday: Closed
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section style="padding: 0 0 5rem; background: var(--bg-light);">
+        <div class="container">
+            <div style="background: var(--bg-white); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow-lg);">
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem; text-align: center; color: white;">
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Visit Our Campus</h2>
+                    <p style="font-size: 1.125rem; opacity: 0.9;">Schedule a campus tour to see our facilities and meet our community</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="admissions.html" class="btn btn-secondary">Schedule a Visit</a>
+                    </div>
+                </div>
+                <div style="height: 400px; background: var(--bg-light); display: flex; align-items: center; justify-content: center; color: var(--text-light);">
+                    <div style="text-align: center;">
+                        <div style="font-size: 4rem; margin-bottom: 1rem;">🗺️</div>
+                        <p style="font-size: 1.125rem;">Interactive map would be embedded here</p>
+                        <p style="font-size: 0.875rem; margin-top: 0.5rem;">123 Education Street, City, State 12345</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>EduInstitution</h3>
+                    <p>Excellence in Education Since 1985</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Career Services</a></li>
+                        <li><a href="#">Alumni Network</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📧 info@eduinstitution.edu</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>📍 123 Education Street</li>
+                        <li>City, State 12345</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EduInstitution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
