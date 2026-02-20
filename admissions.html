@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apply to EduInstitution - Start your journey today">
+    <title>Admissions - EduInstitution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>EduInstitution</h2>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="programs.html" class="nav-link">Programs</a></li>
+                    <li><a href="faculty.html" class="nav-link">Faculty</a></li>
+                    <li><a href="admissions.html" class="nav-link active">Admissions</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 120px 0 80px; color: white; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Admissions</h1>
+            <p style="font-size: 1.25rem; opacity: 0.9;">Start your journey with us today</p>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section style="padding: 5rem 0; background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Admission Process</h2>
+                <p>Simple steps to join our community</p>
+            </div>
+            <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                <div class="feature-card">
+                    <div class="feature-icon">1️⃣</div>
+                    <h3>Submit Application</h3>
+                    <p>Complete our online application form with your personal and academic information.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">2️⃣</div>
+                    <h3>Submit Documents</h3>
+                    <p>Upload transcripts, test scores, recommendation letters, and other required documents.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">3️⃣</div>
+                    <h3>Application Review</h3>
+                    <p>Our admissions committee carefully reviews each application holistically.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">4️⃣</div>
+                    <h3>Interview (if required)</h3>
+                    <p>Some programs may require an interview as part of the admission process.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">5️⃣</div>
+                    <h3>Receive Decision</h3>
+                    <p>Get notified of your admission decision via email and portal.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">6️⃣</div>
+                    <h3>Enroll</h3>
+                    <p>Accept your offer and complete enrollment to secure your spot.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section style="padding: 5rem 0; background: var(--bg-white);">
+        <div class="container">
+            <div style="max-width: 700px; margin: 0 auto;">
+                <div class="section-header">
+                    <h2>Application Form</h2>
+                    <p>Fill out the form below to begin your application</p>
+                </div>
+                <form id="admissionForm" style="background: var(--bg-light); padding: 2.5rem; border-radius: 12px; box-shadow: var(--shadow-md);">
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="firstName" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; transition: var(--transition);">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="lastName" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; transition: var(--transition);">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Email Address *</label>
+                        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; transition: var(--transition);">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; transition: var(--transition);">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="program" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Program of Interest *</label>
+                        <select id="program" name="program" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; background: white; transition: var(--transition);">
+                            <option value="">Select a program</option>
+                            <option value="undergraduate">Undergraduate Programs</option>
+                            <option value="graduate">Graduate Programs</option>
+                            <option value="professional">Professional Development</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="startTerm" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Preferred Start Term *</label>
+                        <select id="startTerm" name="startTerm" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; background: white; transition: var(--transition);">
+                            <option value="">Select a term</option>
+                            <option value="fall">Fall 2026</option>
+                            <option value="spring">Spring 2027</option>
+                            <option value="summer">Summer 2027</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);">Additional Information</label>
+                        <textarea id="message" name="message" rows="4" style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; font-family: inherit; resize: vertical; transition: var(--transition);"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements -->
+    <section style="padding: 5rem 0; background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Admission Requirements</h2>
+                <p>What you need to apply</p>
+            </div>
+            <div style="max-width: 900px; margin: 0 auto;">
+                <div style="display: grid; gap: 2rem;">
+                    <div style="background: var(--bg-white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-md);">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Undergraduate Requirements</h3>
+                        <ul style="list-style: none; padding: 0; color: var(--text-light); line-height: 2;">
+                            <li>✓ High school diploma or equivalent</li>
+                            <li>✓ Official transcripts</li>
+                            <li>✓ SAT/ACT scores (optional)</li>
+                            <li>✓ Personal statement</li>
+                            <li>✓ Letters of recommendation</li>
+                        </ul>
+                    </div>
+                    <div style="background: var(--bg-white); padding: 2rem; border-radius: 12px; box-shadow: var(--shadow-md);">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Graduate Requirements</h3>
+                        <ul style="list-style: none; padding: 0; color: var(--text-light); line-height: 2;">
+                            <li>✓ Bachelor's degree from accredited institution</li>
+                            <li>✓ Official transcripts</li>
+                            <li>✓ GRE/GMAT scores (program dependent)</li>
+                            <li>✓ Statement of purpose</li>
+                            <li>✓ Letters of recommendation (2-3)</li>
+                            <li>✓ Resume/CV</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>EduInstitution</h3>
+                    <p>Excellence in Education Since 1985</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Career Services</a></li>
+                        <li><a href="#">Alumni Network</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📧 info@eduinstitution.edu</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>📍 123 Education Street</li>
+                        <li>City, State 12345</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 EduInstitution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
